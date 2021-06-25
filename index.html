@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+        }
+
+        nav {
+            height: 10vh;
+            line-height: 10vh;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        #highlight {
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            background-color: #7fb3d5;
+            color: white;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        main {
+            padding: 10vw;
+            min-height: 60vh;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        #widget {
+            position: fixed;
+            bottom: 5vh;
+            right: 5vw;
+            background-color: #2471a3;
+            color: white;
+            padding: 1.6rem;
+            padding-left: 2.2rem;
+            padding-right: 2.2rem;
+            border-radius: 2rem;
+        }
+
+        .nav-item {
+            margin-right: 2vw;
+        }
+
+        footer {
+            min-height: 40vh;
+            background-color: silver;
+            padding: 10vw;
+            line-height: 5vh;
+        }
+
+        #footer-grid {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .main-item {
+            line-height: 15vh;
+            padding-left: 3vw;
+            margin: 1vw;
+            height: 15vh;
+            background-color: #7fb3d5;
+        }
+
+        #search {
+            background-color: white;
+            display: block;
+            line-height: 6vh;
+            padding-left: 3vw;
+            text-align: left;
+            font-size: initial;
+            height: 6vh;
+            border-radius: 5vh;
+            color: black;
+            margin-top: 5vw;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span class="nav-item">Brand</span>
+        <span class="nav-item">Store</span>
+        <span class="nav-item">Quiz</span>
+        <span class="nav-item">Support</span>
+        <span class="nav-item">Contact Us</span>
+        <span class="nav-item">Login</span>
+    </nav>
+    <div id="highlight">Help Center <br />
+        <div id="search">Search For Articles...</div>
+    </div>
+    <main>
+        <div class="main-item">Helpful Stuff</div>
+        <div class="main-item">Walk Through</div>
+        <div class="main-item">Frequently Asked</div>
+        <div class="main-item">Tutorials</div>
+        <div class="main-item">Getting Started</div>
+        <div class="main-item">Welcome To</div>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+        <div id="footer-grid">
+            <div>
+
+                <div>Brand</div>
+                <div>Store</div>
+                <div>Quiz</div>
+                <b>
+                    <div>Chat With Us</div>
+                </b>
+            </div>
+            <div>
+                <div>Contact Us</div>
+                <div>Login</div>
+                <div>Privacy</div>
+                <div>Returns</div>
+            </div>
+        </div>
+    </footer>
+    <div id="widget">CHAT</div>
+</body>
+
+</html>
